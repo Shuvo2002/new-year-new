@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.header{
+    background-image: url(images/banner/banner3.png);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.header-details{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-40%, -50%);
+}
+.header-details h1{
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+}
+.header-details p{
+    color: white;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.btn{
+    padding: 10px;
+    width: 30%;
+    font-size: 18px;
+    font-weight: 900;
+    color: rgb(9, 107, 235);
+    border-radius: 5px;
+    border: 0;
+}
+.intro{
+    display: flex;
+    padding: 250px;
+    padding-top: 90px;
+    position: relative;
+    gap: 100px;
+}
+.intro .img img{
+    height: 500px;
+}
+.intoduction{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-15%, -50%);
+    padding: 170px;
+}
+.intoduction h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+.intoduction  p{
+    font-size: 16px;
+    color: #00070ca3;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.intoduction ul{
+    color: #00070ca3;
+    list-style: none;
+    padding-left: 0;
+}
+span{
+    color: rgb(13, 199, 127);
+}
