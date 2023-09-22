@@ -39,6 +39,7 @@
     display: flex;
     padding: 250px;
     padding-top: 90px;
+    padding-bottom: 100px;
     position: relative;
     gap: 100px;
 }
@@ -69,4 +70,27 @@
 }
 span{
     color: rgb(13, 199, 127);
+}
+.heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.img-heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 250px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+.plan-heading{
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.plan-text{
+    text-align: center;
+    color: #8f8787a8;
 }
