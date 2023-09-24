@@ -94,3 +94,93 @@ span{
     text-align: center;
     color: #8f8787a8;
 }
+.double-img{
+    padding: 200px;
+    padding-top: 60px;
+}
+.first-image{
+    width: 100%;
+    position: relative;
+    top: 0;
+    right: 0;
+   
+}
+.second-image{
+    width: 70%;
+    position: absolute;
+    top: 1777px;
+    right: 206px;
+}
+.contact-me{
+    position: absolute;
+    top: 1830px;
+    left: 250px;
+}
+.contact-me h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 20px;
+}
+.btn-call{
+    padding: 10px;
+    width: 30%;
+    font-size: 18px;
+    font-weight: 900;
+    background: white;
+    color: rgb(9, 107, 235);
+    border-radius: 5px;
+    border: 0;
+}
+.info-foooter{
+    display: flex;
+    position: relative;
+    padding: 250px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    background: #000000ed;
+}
+.left h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+.left p{
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #e9e4e49c;
+}
+.right{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+}
+.right h1{
+    font-size: 20px;
+    font-weight: 900;
+}
+.right input{
+    margin-top: 30px;
+    padding: 15px;
+    width: 240px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background: 0;
+    color: white;
+}
+.right input::placeholder{
+    color: white;
+}
+.btn-footer{
+    margin-top: 10px;
+    padding: 10px;
+    width: 45%;
+    font-size: 18px;
+    font-weight: 900;
+    background: rgb(9, 107, 235);
+    color: white;
+    border-radius: 5px;
+    border: 0;
+}
